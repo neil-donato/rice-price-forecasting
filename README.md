@@ -78,19 +78,3 @@ Holdout, last 12 months (scored once):
 - One market and one commodity. Results may differ for other series.
 - SARIMA was not run because statsmodels was not available in the environment used to build this. That is a natural
   addition.
-
-## Next steps
-
-- Add outside drivers (import and policy changes, typhoon and rainfall data, fuel prices, CPI) and test whether any of them
-  improves on the naive benchmark.
-- Build a panel model across the roughly 82 markets reporting since 2020, where there is far more data per model.
-- Calibrate intervals with a method that adapts to recent volatility (for example, conformal prediction over a recent window).
-
-## Run it
-
-```
-pip install -r requirements.txt
-python src/forecast_rice.py
-```
-
-Outputs are written to `outputs/` (tables, figures, and `run_log.txt` from the run described above).
