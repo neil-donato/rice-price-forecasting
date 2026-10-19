@@ -1,0 +1,6 @@
+model,MAE,MAPE
+Naive,3.8867,8.5041
+Holt-Winters (damped),4.3466,9.5231
+Seasonal naive,4.7167,10.9034
+Ensemble (HW + GB),5.2018,11.4659
+Gradient boosting,6.0373,13.3643

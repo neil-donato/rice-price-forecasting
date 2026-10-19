@@ -1,0 +1,16 @@
+{
+  "series": "Rice (regular, milled), Metro Manila, Retail (PHP/kg)",
+  "months": 320,
+  "missing_months_interpolated": [
+    "2015-11",
+    "2015-12",
+    "2016-05",
+    "2016-06",
+    "2019-06",
+    "2020-03",
+    "2020-04"
+  ],
+  "cv_origins": 43,
+  "selected_model": "Naive",
+  "holdout_interval_coverage": 0.4166666666666667
+}

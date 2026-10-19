@@ -1,0 +1,6 @@
+model,MAE,MAPE,MAE vs seasonal naive
+Naive,1.5248,3.8678,-0.3847
+Holt-Winters (damped),1.5952,4.0794,-0.3563
+Ensemble (HW + GB),1.6705,4.2343,-0.3259
+Gradient boosting,1.9083,4.8135,-0.2299
+Seasonal naive,2.478,6.2625,0.0
